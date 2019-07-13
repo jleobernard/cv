@@ -1,0 +1,36 @@
+.language > li {
+  position: relative;
+  padding-left: 1.5em;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+  }
+}
+li#skill_french:before {
+  background-image: url("../../../assets/images/fr.svg");
+}
+li#skill_english:before {
+  background-image: url("../../../assets/images/en.svg");
+}
+li#skill_spanish:before {
+  background-image: url("../../../assets/images/es.svg");
+}
+li#skill_portuguese:before {
+  background-image: url("../../../assets/images/pt.svg");
+}
+li#skill_swedish:before {
+  background-image: url("../../../assets/images/sv.svg");
+}
+li#skill_chinese:before {
+  background-image: url("../../../assets/images/zh.svg");
+}
+li#skill_italian:before {
+  background-image: url("../../../assets/images/it.svg");
+}
+li#skill_german:before {
+  background-image: url("../../../assets/images/de.svg");
+}

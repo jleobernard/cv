@@ -1,0 +1,19 @@
+$portrait-size: 100px;
+#me{
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+#selfie {
+    align-items: center;
+    height: 100%;
+}
+#title {
+  width: 100%;
+  text-align: center;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

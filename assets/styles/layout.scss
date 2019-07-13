@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: auto;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content-elt {
+  &:not(:last-child) {
+    margin-bottom: 1em;
+  }
+}
+
+
+.content-elt.with-dates {
+  position: relative;
+  padding-left: 13em;
+  > .dates {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  > .title {
+    font-weight: bold;
+  }
+  >.subtitle {
+    font-weight: lighter;
+  }
+}
+
+.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+ul.no-margin {
+  padding-inline-start: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  &:not(:last-child) {
+    margin-bottom: 0.25em;
+  }
+  > .picto {
+    width: 1.5em;
+    margin-right: 0.5em;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
