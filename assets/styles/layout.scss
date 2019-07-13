@@ -1,3 +1,5 @@
+@import "constants.scss";
+
 html {
   box-sizing: border-box;
   max-width: 800px;
@@ -40,11 +42,29 @@ ul.no-margin {
   padding-inline-start: 0;
 }
 
+
+.cartouche-contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .contact-info {
   display: flex;
   flex-wrap: wrap;
-  &:not(:last-child) {
-    margin-bottom: 0.25em;
+  flex-grow: 1;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0.5em;
+  &:first-child {
+    border-left: 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-right: 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   > .picto {
     width: 1.5em;
@@ -53,5 +73,17 @@ ul.no-margin {
   a {
     text-decoration: none;
     color: inherit;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint) {
+  .content-elt.with-dates {
+    padding-left: 0;
+    & > .dates {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
   }
 }

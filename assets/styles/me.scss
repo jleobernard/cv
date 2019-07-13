@@ -1,3 +1,4 @@
+@import "./constants";
 $portrait-size: 100px;
 #me{
   position: relative;
@@ -16,4 +17,15 @@ $portrait-size: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: $breakpoint) {
+  #me {
+    flex-flow: column;
+  }
+  #selfie {
+    height: auto;
+    max-width: $portrait-size;
+    margin: auto;
+  }
 }

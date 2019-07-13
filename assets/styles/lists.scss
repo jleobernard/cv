@@ -1,6 +1,7 @@
 .inline-list{
   display: flex;
   flex-wrap: wrap;
+  padding-inline-start: 0;
   > li {
     list-style: none;
     &:not(:last-child) {
