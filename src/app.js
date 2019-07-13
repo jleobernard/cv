@@ -9,7 +9,7 @@ import '../assets/styles/main.scss'
 window.React = React
 window.ReactDOM = ReactDOM
 
-const MyCV = (props) =>
+const MyCV = () =>
 <div id="cv">
   <Education schools={Cv.schools} />
   <Experiences experiences={Cv.experiences} />

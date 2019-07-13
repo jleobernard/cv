@@ -7,23 +7,23 @@ const data = {
     companies: {
         "company_alantaya": {
             name: "Alantaya",
-            logo: ""
+            logo: "wcwc.svg"
         },
         "company_empanaderos": {
             name: "Empanaderos Studios",
-            logo: ""
+            logo: "empanaderos.svg"
         },
         "company_ds": {
             name: "Dassault Systèmes",
-            logo: ""
+            logo: "3ds-dark.svg"
         },
         "company_axway": {
             name: "Axway",
-            logo: ""
+            logo: "Axway_logo.svg"
         },
         "company_sopra": {
             name: "SOPRA",
-            logo: ""
+            logo: "sopra-steria-logo.svg"
         }
     },
     experiences: [
