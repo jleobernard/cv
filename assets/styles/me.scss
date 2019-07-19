@@ -1,5 +1,5 @@
 @import "./constants";
-$portrait-size: 100px;
+$portrait-size: 300px;
 #me{
   position: relative;
   display: flex;
@@ -8,18 +8,29 @@ $portrait-size: 100px;
 #selfie {
     align-items: center;
     height: 100%;
+    min-width: $portrait-size;
 }
 #title {
   width: 100%;
   text-align: center;
+  display: block;
 }
 #contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 1em;
 }
 
 @media screen and (max-width: $breakpoint) {
+  h1 {
+    flex-direction: row-reverse;
+    > .picto {
+      transform: rotateZ(90deg);
+      position: relative;
+      top: -1em;
+    }
+  }
   #me {
     flex-flow: column;
   }
@@ -27,5 +38,8 @@ $portrait-size: 100px;
     height: auto;
     max-width: $portrait-size;
     margin: auto;
+  }
+  #contact {
+    margin-left: 0;
   }
 }

@@ -32,7 +32,7 @@ const data = {
             from: "2016",
             to: "maintenant",
             poste: "TechLead",
-            description: "Depuis 2013, Alantaya conçoit des outils nutritionnels pour aider les gens à mieux manger, selon leurs goûts et leurs rythmes de vie. Je me suis intégré à cette start-up, d'abord en freelance dévelopeur puis en interne en tant que techlead afin de les aider à créer un algorithme de suggestion puissant ainsi que d'une plateforme Web flexible et dynamique s'appuyant sur un backend réactif.",
+            description: "Depuis 2013, Alantaya conçoit des outils nutritionnels pour aider les gens à mieux manger, selon leurs goûts et leurs rythmes de vie. Je me suis intégré à cette start-up, d'abord en freelance dévelopeur puis en interne en tant que techlead afin de les aider à créer un algorithme de suggestion puissant ainsi qu'une plateforme Web flexible et dynamique s'appuyant sur un backend réactif.",
             tasks: [
                 {
                     description: "Définition de la stack technologique et de l'architecture applicative",

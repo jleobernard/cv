@@ -27,7 +27,7 @@ class Experience extends React.Component {
                 <div className="subtitle">{experience.poste}</div>
                 <div className="dates">De {experience.from} à {experience.to}</div>
                 <img className="company-logo" src={"./assets/images/"+company.logo} />
-                <div className="description">{experience.description}</div>
+                <p className="description">{experience.description}</p>
                 <div className="description">
                     <h4>Tâches</h4>
                     <ul className="tasks">
