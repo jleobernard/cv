@@ -179,7 +179,7 @@ const data = {
         {id: "skill_gitlab", name: "Gitlab / GitlabCI", type: "ope", grade: 4},
         {id: "skill_jenkins", name: "Jenkins", type: "ope", grade: 3},
         {id: "skill_docker", name: "Docker", type: "ope", grade: 4, favorite: true},
-        {id: "skill_jira", name: "Jenkins", type: "ope", grade: 3}
+        {id: "skill_jira", name: "Jira", type: "ope", grade: 3}
 
     ]
 }
